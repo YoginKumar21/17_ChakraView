@@ -3,12 +3,8 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div className="relative min-h-screen flex items-center justify-center text-center text-white overflow-hidden">
-      {/* Background Layer */}
       <div className="absolute inset-0 z-0">
-        {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-black"></div>
-
-        {/* Background Image (Replace with your image) */}
         <div
           className="absolute inset-0 bg-cover bg-center opacity-40"
           style={{
@@ -17,7 +13,6 @@ export default function Home() {
         ></div>
       </div>
 
-      {/* Content */}
       <div className="relative z-10 max-w-3xl px-6">
         <h1 className="text-5xl md:text-7xl font-semibold tracking-wide mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent drop-shadow-[0_0_12px_rgba(59,130,246,0.6)] glossy-text animate-gradient">
           Welcome to AstraX Customs
@@ -36,7 +31,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Extra Glow Elements */}
       <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl"></div>
     </div>

@@ -11,7 +11,7 @@ function App() {
       <div className="min-h-screen bg-black text-white">
         <Navbar />
         <Routes>
-          <Route index element={<Home />} /> {/* ✅ Default route */}
+          <Route index element={<Home />} /> 
           <Route path="/" element={<Home />} />
           <Route path="/models" element={<Model />} />
           <Route path="/team" element={<Team />} />
